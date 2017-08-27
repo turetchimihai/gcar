@@ -14,7 +14,6 @@ public class Obstacle_3 implements ObstacleGenerator {
         texture = new Texture("obstacle_6.png");
         speed = 1;
         position = new Vector2(268,(int) (Math.random() * ((2048 - 1024) + 1) + 1024));
-        System.out.println("Position y OBSTACLE 3 " + position.y);
         this.road = road;
     }
 
